@@ -1,36 +1,51 @@
 
-  .a , .c , .e , .g , .i {
-    background-color: rgb(181, 253, 179);
+
+
+
+   @media (min-width: 769px) and (max-width:991px) { 
+
+ .desktop_and_tablet { border: 1px solid black;}
+  .aa, section, .content {border-bottom: 1px solid black;}
+  .bb , .cc , .ee , .ff , .gg {border-right: 1px solid black;}
+  .aa , .cc , .ee , .gg , .ii {
+    background-color: rgb(255, 211, 245);
   }
   
-  .b , .d , .f , .h {
-    background-color: rgb(6, 155, 155);
+  .bb , .dd , .ff , .hh {
+    background-color: rgb(197, 51, 141);
   }
 
-
-@media (min-width: 768px) {
-
-  .layoutDiv { border: 1px solid black;}
-  .a , .b , .i, .divRow-1 , .divRow-2 {border-bottom: 1px solid black;}
-  .midDiv div { border-left: 1px solid black; }
-  .a , .c , .e , .g , .i {
-    background-color: rgb(253, 255, 108);
-  }
-  
-  .b , .d , .f , .h {
-    background-color: rgb(247, 101, 33);
-  }
 }
 
+/*---------------------------------------------------*/
 
- @media (min-width: 480px) and (max-width: 767px) {
-.layoutDiv { border: 1px solid black;}
-.a , .b , .c , .e , .f, .divRow-1 , .divRow-2 {border-bottom: 1px solid black;}
+
+@media (min-width: 992px) {
+
+  .desktop_and_tablet { border: 1px solid black;}
+   .aa, section, .content {border-bottom: 1px solid black;}
+   .bb , .cc , .ee , .ff , .gg {border-right: 1px solid black;}
+   .aa , .cc , .ee , .gg , .ii {
+     background-color: rgb(246, 255, 145);
+   }
+   
+   .bb , .dd , .ff , .hh {
+     background-color: rgb(255, 129, 45);
+   }
+ 
+ }
+ 
+ /*---------------------------------------------------*/
+ 
+@media  (max-width: 768px) {
+  .mobile { border: 1px solid black;}
+.a,.b,.c,.d, .divRow1 , .divRow2 {border-bottom: 1px solid black;}
 .f , .h { border-left: 1px solid black;}
-  .a , .c , .e , .g , .i {
-    background-color: rgb(250, 196, 214);
-  }
-  .b , .d , .f , .h {
-    background-color: rgb(190, 1, 181);
-  }
+.a , .c , .e , .g , .i {
+  background-color: rgb(181, 253, 179);
+}
+
+.b , .d , .f , .h {
+  background-color: rgb(6, 155, 155);
+}
  }
