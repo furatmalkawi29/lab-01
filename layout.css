@@ -1,66 +1,68 @@
 
-@media (min-width: 768px) and (max-width: 960px) {
 
-.layoutDiv {width: 960px;
-height: 700px;
-margin:20px;
-}
+@media (min-width: 768px) {
 
- .midDiv , .divRow-1 div , .divRow-2 div {
-  display: inline-block;
-}
-
-.b , .c, .e , .f , .g { float: left;}
- 
- .midDiv {width:79.17% ;}
-
-.a { height: 100px ;
-     width: 100% ;
-     line-height: 100px ;}
-
-.b { height:600px;
-     width: 20.83%;
-     line-height: 600px ;}
-
-.c, .d { height: 200px ;
-         width: 50%;
-         line-height: 200px ;}
-
-.e ,.f ,.g ,.h { height:250px ;
-                 width:25% ;
-                 line-height: 250px ;}
-
-.i { height: 150px ;
-     width: 100%;
-     line-height: 150px ;} }
-
-
- @media (min-width: 480px) and (max-width: 767px) {
+  .layoutDiv {width: 960px;
+  height: 700px;
+  margin:auto;
+  }
+  
+   .midDiv , .divRow-1 div , .divRow-2 div {
+    display: inline-block;
+  }
+  
+  .b , .c, .e , .f , .g { float: left;}
    
-
-  .layoutDiv {width: 480px;
-    height: 1,055px; }
-
-  .layoutDiv div {width: 100%;}
-
-  .divRow-2 div { width: 50%;
-      display: inline-block; }
-
-  .e, .g { float: left;}
-
-  .a {/* trick: align text vertically --> both 75px*/ 
-     height: 75px ;
-  line-height: 75px ; }
-
-.b { height:150px;
-  line-height: 150px ; }
-
-
-.c, .d { height: 125px ;
-  line-height: 125px ; }
-
-.e ,.f ,.g ,.h { height:250px;
-  line-height: 250px ;  }
-
-.i { height: 80px;
-  line-height: 80px ; } }
+   .midDiv {width:79.17% ;}
+  
+  .a { height: 100px ;
+       width: 100% ;
+       line-height: 100px ;}
+  
+  .b { height:600px;
+       width: 20.83%;
+       line-height: 600px ;}
+  
+  .c, .d { height: 200px ;
+           width: 50%;
+           line-height: 200px ;}
+  
+  .e ,.f ,.g ,.h { height:250px ;
+                   width:25% ;
+                   line-height: 250px ;}
+  
+  .i { height: 150px ;
+       width: 100%;
+       line-height: 150px ;} }
+  
+  
+   @media (min-width: 480px) and (max-width: 767px) {
+     
+  
+    .layoutDiv {width: 480px;
+      height: 1,055px; }
+  
+    .layoutDiv div {width: 100%;}
+  
+    .divRow-2 div { width: 50%;
+        display: inline-block; }
+  
+    .e, .g { float: left;}
+  
+    .a {/* trick: align text vertically --> both 75px*/ 
+       height: 75px ;
+    line-height: 75px ; }
+  
+  .b { height:150px;
+    line-height: 150px ; }
+  
+  
+  .c, .d { height: 125px ;
+    line-height: 125px ; }
+  
+  .e ,.f ,.g ,.h { height:250px;
+    line-height: 250px ;  }
+  
+  .i { height: 80px;
+    line-height: 80px ; } }
+  

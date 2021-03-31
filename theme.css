@@ -8,7 +8,7 @@
   }
 
 
-@media (min-width: 768px) and (max-width: 960px) {
+@media (min-width: 768px) {
 
   .layoutDiv { border: 1px solid black;}
   .a , .b , .i, .divRow-1 , .divRow-2 {border-bottom: 1px solid black;}
